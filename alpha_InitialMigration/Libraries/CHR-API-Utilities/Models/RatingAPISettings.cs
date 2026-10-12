@@ -2,9 +2,6 @@
 
 namespace CHR_API_Utilities.Models;
 
-//[JsonDerivedType(typeof(RatingAPI_TEST),nameof(RatingAPI_TEST))]
-//[JsonDerivedType(typeof(RatingAPI_PROD),nameof(RatingAPI_PROD))]
-//[JsonPolymorphic(TypeDiscriminatorPropertyName = "$type")]
 public interface IRatingAPIBase
 {
     public string? GlobalClientId { get; set; }
