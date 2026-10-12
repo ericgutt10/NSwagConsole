@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ConsoleApp/ConsoleApp.csproj" />
+  <Project Path="Junk/WorkerService1/WorkerService1.csproj" Id="7bd317f0-34c1-49b3-b203-0f67f64c2e91" />
+  <Project Path="Libraries/CHR-API-Utilities/CHR-API-Utilities.csproj" Id="9bc3df5d-406f-49ca-aa5e-0d6518d58646" />
+  <Project Path="Libraries/SwaggerClient/SwaggerClient.csproj" Id="11abcd5f-4908-4739-8ca5-5d061d711c5f" />
+  <Project Path="Test_ConsoleClient/TestConsole/TestConsole.csproj" Id="9214284c-709f-4770-934d-db617539c8a8" />
+</Solution>

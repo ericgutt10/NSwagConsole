@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>CHR_API_Utilities</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.12" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.12" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.12" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwaggerClient\SwaggerClient.csproj" />
+  </ItemGroup>
+
+</Project>
